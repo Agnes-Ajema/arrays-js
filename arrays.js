@@ -22,3 +22,9 @@ let subArr5 = arr5.indexOf(substr);
 
 if (subArr5) {console.log("way")}
 else { console.log("the search word was not found")};
+
+let word = "sevink";
+let sortString = (word) => {
+    return word.split("").sort().join("");
+};
+console.log(sortString("sevink"));
